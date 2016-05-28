@@ -2,7 +2,7 @@
 ###### Se necesitan 1 libreria (api) para correr elementos del codigo
 
 - Java mail [descarga](https://java.net/projects/javamail/pages/Home). (descargar el que dice javax.mail.jar)
-agregar java mail como javaMail para todos tener el mismo nombre
+agregar java mail con el nombre de javaMail para todos tener el mismo 
 
 ###### mini tutorial como agregar librerias a netbeans
 
