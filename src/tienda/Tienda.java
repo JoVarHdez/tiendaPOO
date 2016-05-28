@@ -5,17 +5,26 @@
  */
 package tienda;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author ema
  */
 public class Tienda {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
     
+    private String nombre;
+    private String cedulaJuridica;
+    private String direccion; 
+    private Caja caja;
+    private Bodega bodega;
+    
+    private ArrayList <Cliente> clientes;
+    
+    public Tienda( String nombre, String cedulaJuridica, String direccion){
+        caja = new Caja(100000, 0.13);
+        this.nombre = nombre;
+        this.cedulaJuridica = cedulaJuridica;
+        this.direccion = direccion;
+    }
 }
